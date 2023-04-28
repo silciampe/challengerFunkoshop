@@ -5,47 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Funkoshop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/5388f691ef.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <header> <!--Inicio header--> 
-     <nav>
-        <picture>
-            <a href="index.html">
-                <img src="img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funkoshop">
+     <nav class="flex-container" >
+        <picture  >
+            <a href="index.html" class="imgNavegador">
+                <img src="img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funkoshop" class="imgNavegador">
             </a>
         </picture>
-        <ul>
-          <li>  
+          <li class="flex-item">  
             <a href="pages/shop.html">SHOP</a>   
           </li>
-          <li>  
+          <li class="flex-item">  
             <a href="pages/comtact.html">CONTACTO</a>   
           </li>
-          <li>  
+          <li class="flex-item">  
             <a href="pages/login.html">LOGIN</a>   
           </li>
-          <li>  
+          <li class="flex-item">  
             <a href="pages/cart.html">
                 <img src="img/icons/cart-icon.svg" alt="icono de carrito">
             </a>   
           </li>
-        </ul>
-     </nav>
+           </nav>
     </header> <!--Fin header-->
     
     <main> <!--Inicio main-->
-        <section>
-            <article>
-                <h3>Nuevos Ingresos</h3>
-                <p>Descubrí el próximo Funko Pop de tu colección</p>
-                <a href="pages/shop.html">SHOP</a>
+        <section class="imagenFondo">
+            <article class="ingresos">
+                <h3 class="nuevosIngresos">Nuevos Ingresos</h3>
+                <p class="descubri">Descubrí el próximo Funko Pop de tu colección</p>
+                <a href="pages/shop.html" class="shop">SHOP</a>
             </article>
         </section>
         <section>
             <article>
                 <h3>Star Wars & The Mandalorian </h3>
                 <p>Disfruta de una saga que sigue agregando personajes a su colección.</p>
-                <a href="pages/shop.html">VER COLECCIÓN</a>
+                <a href="pages/shop.html" >VER COLECCIÓN</a>
             </article>
             <picture>
                 <img src="img/star-wars/baby-yoda-1.webp" alt="figura coleccionable Funko de Grogu de la serie Mandalorian">
@@ -152,5 +157,5 @@
             All rights reserved 2023 - Funkoshop & copy;
         </p>
     </footer> <!--Fin footer-->
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </html>
